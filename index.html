@@ -1,0 +1,1418 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>51空丶梦幻丶果冻_梦幻果冻影像社区_空丶果冻官方视频门户</title>
+<meta name="description" content="51空丶梦幻丶果冻官方网站，梦幻果冻品牌旗下原创高清影像社区，汇聚果冻系创作者、梦幻短片与企业动态，持续运营的高品质视频内容生态。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23f7b7d2'/%3E%3Cstop offset='1' stop-color='%239c7cf0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='%23241c3a'/%3E%3Cpath d='M32 12c9 0 16 7 16 16 0 12-10 20-16 24-6-4-16-12-16-24 0-9 7-16 16-16z' fill='url(%23g)'/%3E%3Ccircle cx='25' cy='28' r='3' fill='%23fff' opacity='.85'/%3E%3Ccircle cx='39' cy='28' r='3' fill='%23fff' opacity='.85'/%3E%3C/svg%3E">
+<style>
+/* ============ namespace: kdj (kong-meng-jelly) ============ */
+:root{
+  --kdj-bg:#f6f3fb;
+  --kdj-panel:#ffffff;
+  --kdj-ink:#241c3a;
+  --kdj-ink-2:#4d4468;
+  --kdj-ink-3:#7d7595;
+  --kdj-line:#e6e0f2;
+  --kdj-brand:#7a5cf0;
+  --kdj-brand-d:#5b3fd6;
+  --kdj-pink:#f7b7d2;
+  --kdj-pink-d:#e07aa8;
+  --kdj-mint:#8fe3cf;
+  --kdj-amber:#ffcf7a;
+  --kdj-shadow:0 10px 30px rgba(60,40,110,.10);
+  --kdj-shadow-s:0 4px 14px rgba(60,40,110,.08);
+  --kdj-r:18px;
+  --kdj-r-s:12px;
+  --kdj-max:1180px;
+  --kdj-sticky:104px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--kdj-sticky)}
+body{
+  margin:0;background:var(--kdj-bg);color:var(--kdj-ink);
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+  line-height:1.75;-webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit}
+h1,h2,h3,h4{margin:0;line-height:1.32;font-weight:700}
+p{margin:0}
+ul{margin:0;padding:0;list-style:none}
+
+.kdj-wrap{max-width:var(--kdj-max);margin:0 auto;padding:0 20px}
+.kdj-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- S1 公告条 + 页头 ---------- */
+.kdj-topbar{
+  position:sticky;top:0;z-index:120;
+  display:flex;align-items:center;gap:14px;
+  padding:8px 20px;
+  background:linear-gradient(90deg,#2b2148 0%,#4a2f7d 45%,#6d43a8 100%);
+  color:#f3ecff;font-size:13px;letter-spacing:.2px;
+}
+.kdj-topbar__tag{
+  flex:none;background:var(--kdj-pink);color:#3a1f4d;font-weight:700;
+  border-radius:999px;padding:2px 10px;font-size:12px;
+}
+.kdj-topbar__track{overflow:hidden;flex:1;min-width:0}
+.kdj-topbar__list{display:flex;gap:34px;white-space:nowrap;animation:kdj-marquee 26s linear infinite}
+.kdj-topbar:hover .kdj-topbar__list{animation-play-state:paused}
+.kdj-topbar__list li{opacity:.94}
+.kdj-topbar__list b{color:var(--kdj-amber);font-weight:700}
+@keyframes kdj-marquee{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.kdj-topbar__list{animation:none}}
+
+.kdj-header{
+  position:sticky;top:38px;z-index:110;
+  background:rgba(255,255,255,.92);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--kdj-line);
+}
+.kdj-header__in{
+  max-width:var(--kdj-max);margin:0 auto;padding:12px 20px;
+  display:flex;align-items:center;gap:20px;
+}
+.kdj-logo{display:flex;align-items:center;gap:10px;flex:none}
+.kdj-logo__mark{width:38px;height:38px;flex:none}
+.kdj-logo__txt{display:flex;flex-direction:column;line-height:1.15}
+.kdj-logo__name{font-size:16px;font-weight:800;letter-spacing:.4px}
+.kdj-logo__sub{font-size:11px;color:var(--kdj-ink-3);letter-spacing:1.6px}
+
+.kdj-nav{display:flex;gap:4px;margin-left:6px;flex-wrap:wrap}
+.kdj-nav a{
+  padding:7px 12px;border-radius:10px;font-size:14px;color:var(--kdj-ink-2);
+  transition:background .2s,color .2s;
+}
+.kdj-nav a:hover,.kdj-nav a:focus-visible{background:#efe9ff;color:var(--kdj-brand-d);outline:none}
+
+.kdj-search{position:relative;margin-left:auto;flex:none;width:250px}
+.kdj-search input{
+  width:100%;padding:9px 12px 9px 34px;border-radius:999px;
+  border:1px solid var(--kdj-line);background:#faf8ff;color:var(--kdj-ink);
+  font-size:13px;outline:none;transition:border-color .2s,box-shadow .2s;
+}
+.kdj-search input:focus{border-color:var(--kdj-brand);box-shadow:0 0 0 3px rgba(122,92,240,.16)}
+.kdj-search__icon{position:absolute;left:11px;top:50%;transform:translateY(-50%);width:15px;height:15px;opacity:.5}
+.kdj-search__hint{
+  position:absolute;top:calc(100% + 8px);left:0;right:0;background:#fff;
+  border:1px solid var(--kdj-line);border-radius:var(--kdj-r-s);box-shadow:var(--kdj-shadow);
+  padding:8px;font-size:13px;display:none;z-index:140;
+}
+.kdj-search__hint.is-open{display:block}
+.kdj-search__hint p{padding:6px 8px;border-radius:8px;color:var(--kdj-ink-2);cursor:pointer}
+.kdj-search__hint p:hover{background:#f2edff}
+.kdj-search__hint strong{color:var(--kdj-brand-d)}
+.kdj-search__empty{padding:8px;color:var(--kdj-pink-d)}
+
+.kdj-burger{
+  display:none;margin-left:auto;width:42px;height:42px;flex:none;
+  border:1px solid var(--kdj-line);background:#fff;border-radius:12px;cursor:pointer;
+  align-items:center;justify-content:center;flex-direction:column;gap:4px;
+}
+.kdj-burger span{display:block;width:18px;height:2px;background:var(--kdj-ink);border-radius:2px;transition:transform .25s,opacity .25s}
+.kdj-burger.is-open span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+.kdj-burger.is-open span:nth-child(2){opacity:0}
+.kdj-burger.is-open span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+
+/* ---------- 通用区块 ---------- */
+.kdj-sec{padding:70px 0}
+.kdj-sec--tint{background:linear-gradient(180deg,#f2ecff 0%,#f8f5ff 100%)}
+.kdj-sec__head{display:flex;align-items:flex-end;gap:18px;flex-wrap:wrap;margin-bottom:30px}
+.kdj-sec__kicker{
+  font-size:12px;letter-spacing:3px;color:var(--kdj-pink-d);font-weight:700;
+  text-transform:uppercase;display:block;margin-bottom:6px;
+}
+.kdj-sec__title{font-size:clamp(22px,3.4vw,32px);letter-spacing:-.4px}
+.kdj-sec__desc{color:var(--kdj-ink-3);font-size:14px;max-width:56ch;margin-top:8px}
+.kdj-sec__more{
+  margin-left:auto;font-size:13px;color:var(--kdj-brand-d);font-weight:600;
+  border-bottom:1px solid rgba(122,92,240,.35);padding-bottom:2px;
+}
+
+.kdj-card{
+  background:var(--kdj-panel);border:1px solid var(--kdj-line);border-radius:var(--kdj-r);
+  box-shadow:var(--kdj-shadow-s);transition:transform .25s,box-shadow .25s,border-color .25s;
+  min-width:0;
+}
+.kdj-card:hover{transform:translateY(-4px);box-shadow:var(--kdj-shadow);border-color:#d8cdf5}
+
+.kdj-tag{
+  display:inline-block;font-size:11px;padding:2px 9px;border-radius:999px;
+  background:#efe9ff;color:var(--kdj-brand-d);font-weight:600;
+}
+.kdj-tag--pink{background:#ffe6f0;color:#b64a7c}
+.kdj-tag--mint{background:#e0f8f2;color:#1f8a72}
+.kdj-tag--amber{background:#fff3da;color:#9a6a13}
+
+.kdj-btn{
+  display:inline-flex;align-items:center;gap:8px;border-radius:999px;cursor:pointer;
+  font-size:14px;font-weight:600;padding:10px 20px;border:1px solid transparent;
+  transition:transform .2s,box-shadow .2s,background .2s,color .2s;
+}
+.kdj-btn--primary{background:linear-gradient(135deg,var(--kdj-brand) 0%,#a97cf6 100%);color:#fff;box-shadow:0 8px 20px rgba(122,92,240,.3)}
+.kdj-btn--primary:hover{transform:translateY(-2px);box-shadow:0 12px 26px rgba(122,92,240,.4)}
+.kdj-btn--ghost{background:#fff;border-color:#ddd4f3;color:var(--kdj-brand-d)}
+.kdj-btn--ghost:hover{background:#f6f1ff}
+.kdj-btn--line{background:transparent;border-color:rgba(255,255,255,.45);color:#fff}
+.kdj-btn--line:hover{background:rgba(255,255,255,.14)}
+
+/* ---------- S2 首屏：左文右侧大图 + 数据条 ---------- */
+.kdj-hero{position:relative;overflow:hidden;background:
+  radial-gradient(900px 480px at 88% -12%,rgba(247,183,210,.55),transparent 62%),
+  radial-gradient(700px 420px at 6% 108%,rgba(143,227,207,.42),transparent 60%),
+  linear-gradient(160deg,#fbf8ff 0%,#f1ecff 100%);
+  border-bottom:1px solid var(--kdj-line);
+}
+.kdj-hero__in{
+  max-width:var(--kdj-max);margin:0 auto;padding:64px 20px 72px;
+  display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,0.98fr);gap:52px;align-items:center;
+}
+.kdj-hero__badge{
+  display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;
+  color:var(--kdj-brand-d);background:#fff;border:1px solid #e3d9fb;border-radius:999px;
+  padding:5px 14px;margin-bottom:20px;box-shadow:var(--kdj-shadow-s);
+}
+.kdj-hero__badge i{width:7px;height:7px;border-radius:50%;background:var(--kdj-pink-d);display:block;animation:kdj-pulse 2s infinite}
+@keyframes kdj-pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.kdj-hero h1{font-size:clamp(30px,4.9vw,50px);letter-spacing:-1px;line-height:1.18}
+.kdj-hero h1 em{
+  font-style:normal;background:linear-gradient(120deg,var(--kdj-brand) 10%,var(--kdj-pink-d) 90%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.kdj-hero__lead{margin-top:18px;font-size:15.5px;color:var(--kdj-ink-2);max-width:56ch}
+.kdj-hero__lead strong{color:var(--kdj-brand-d)}
+.kdj-hero__actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.kdj-hero__stats{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:34px;
+  padding-top:26px;border-top:1px dashed #d9cff2;
+}
+.kdj-hero__stat b{display:block;font-size:clamp(20px,2.6vw,26px);letter-spacing:-.5px;color:var(--kdj-ink)}
+.kdj-hero__stat span{font-size:12.5px;color:var(--kdj-ink-3)}
+
+.kdj-hero__visual{position:relative}
+.kdj-hero__frame{
+  position:relative;border-radius:26px;overflow:hidden;box-shadow:0 26px 60px rgba(70,45,130,.26);
+  border:6px solid #fff;background:#fff;aspect-ratio:16/11;
+}
+.kdj-hero__frame img{width:100%;height:100%;object-fit:cover}
+.kdj-hero__play{
+  position:absolute;inset:auto auto 18px 18px;display:flex;align-items:center;gap:10px;
+  background:rgba(24,16,44,.72);color:#fff;border-radius:999px;padding:8px 16px 8px 10px;
+  font-size:12.5px;backdrop-filter:blur(6px);
+}
+.kdj-hero__play i{
+  width:26px;height:26px;border-radius:50%;background:var(--kdj-pink);display:grid;place-items:center;
+}
+.kdj-hero__play i::after{content:"";border-left:8px solid #3a1f4d;border-top:5px solid transparent;border-bottom:5px solid transparent;margin-left:2px}
+.kdj-hero__chip{
+  position:absolute;right:-14px;top:-14px;background:#fff;border-radius:16px;padding:10px 14px;
+  font-size:12px;box-shadow:var(--kdj-shadow);border:1px solid var(--kdj-line);line-height:1.4;
+}
+.kdj-hero__chip b{color:var(--kdj-pink-d);font-size:14px}
+.kdj-hero__chip2{
+  position:absolute;left:-16px;bottom:-18px;background:#fff;border-radius:16px;padding:10px 14px;
+  font-size:12px;box-shadow:var(--kdj-shadow);border:1px solid var(--kdj-line)
+}
+.kdj-hero__chip2 b{color:var(--kdj-brand-d)}
+
+/* ---------- S3 焦点内容 ---------- */
+.kdj-focus__grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:24px}
+.kdj-focus__main{overflow:hidden;display:flex;flex-direction:column}
+.kdj-focus__main figure{margin:0;aspect-ratio:16/9;overflow:hidden;background:#efe9ff}
+.kdj-focus__main figure img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.kdj-focus__main:hover figure img{transform:scale(1.045)}
+.kdj-focus__body{padding:22px 24px 26px}
+.kdj-focus__body h3{font-size:22px;margin:10px 0 10px}
+.kdj-focus__body p{color:var(--kdj-ink-2);font-size:14px}
+.kdj-focus__meta{display:flex;flex-wrap:wrap;gap:12px;font-size:12.5px;color:var(--kdj-ink-3);margin-top:14px}
+.kdj-focus__side{display:grid;gap:14px;align-content:start}
+.kdj-mini{
+  display:grid;grid-template-columns:96px minmax(0,1fr);gap:14px;padding:14px;
+  align-items:center;
+}
+.kdj-mini figure{margin:0;aspect-ratio:16/11;border-radius:12px;overflow:hidden;background:#efe9ff}
+.kdj-mini figure img{width:100%;height:100%;object-fit:cover}
+.kdj-mini h4{font-size:14.5px;margin-bottom:5px}
+.kdj-mini p{font-size:12.5px;color:var(--kdj-ink-3);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+/* 视频条目列表 */
+.kdj-vlist{display:grid;gap:12px;margin-top:26px}
+.kdj-vitem{
+  display:grid;grid-template-columns:minmax(0,1fr) auto;gap:18px;align-items:center;
+  padding:16px 20px;background:#fff;border:1px solid var(--kdj-line);border-radius:var(--kdj-r-s);
+  transition:border-color .2s,box-shadow .2s,transform .2s;min-width:0;
+}
+.kdj-vitem:hover{border-color:#d5c8f5;box-shadow:var(--kdj-shadow-s);transform:translateX(3px)}
+.kdj-vitem__main{min-width:0}
+.kdj-vitem__title{display:flex;flex-wrap:wrap;align-items:center;gap:10px;font-size:15.5px;font-weight:700}
+.kdj-vitem__title span{font-weight:400}
+.kdj-vitem__desc{font-size:13px;color:var(--kdj-ink-3);margin-top:5px}
+.kdj-vitem__tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.kdj-vitem__stats{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--kdj-ink-3);margin-top:8px}
+.kdj-vitem__ops{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.kdj-op{
+  border:1px solid var(--kdj-line);background:#fbf9ff;color:var(--kdj-ink-2);
+  font-size:12px;padding:6px 11px;border-radius:999px;cursor:pointer;
+  transition:background .2s,color .2s,border-color .2s;display:inline-flex;align-items:center;gap:5px;
+}
+.kdj-op:hover{background:#f1ebff;border-color:#d5c8f5;color:var(--kdj-brand-d)}
+.kdj-op.is-on{background:#ffe6f0;border-color:#f6bcd6;color:#b64a7c}
+.kdj-op.is-liked{background:#efe9ff;border-color:#c9b6f7;color:var(--kdj-brand-d)}
+.kdj-op svg{width:13px;height:13px;flex:none}
+
+/* ---------- S4 专题 ---------- */
+.kdj-topics{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.kdj-topic{padding:22px;display:flex;flex-direction:column;gap:10px}
+.kdj-topic__head{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.kdj-topic h3{font-size:17px}
+.kdj-topic__desc{font-size:13px;color:var(--kdj-ink-2)}
+.kdj-topic ul{display:grid;gap:7px;margin-top:4px}
+.kdj-topic li{font-size:12.8px;color:var(--kdj-ink-3);display:flex;gap:8px}
+.kdj-topic li::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--kdj-pink-d);flex:none;margin-top:9px}
+.kdj-topic__foot{margin-top:auto;padding-top:12px;font-size:12px;color:var(--kdj-ink-3);border-top:1px dashed var(--kdj-line)}
+
+/* ---------- 品牌解析 长文 ---------- */
+.kdj-essay{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:40px;align-items:start}
+.kdj-essay__body p{font-size:15px;color:var(--kdj-ink-2);margin-bottom:16px}
+.kdj-essay__body p strong{color:var(--kdj-ink)}
+.kdj-essay__body h3{font-size:19px;margin:28px 0 12px;padding-left:12px;border-left:4px solid var(--kdj-brand);line-height:1.4}
+.kdj-essay__body ul{display:grid;gap:9px;margin:0 0 16px}
+.kdj-essay__body ul li{font-size:14px;color:var(--kdj-ink-2);padding-left:20px;position:relative}
+.kdj-essay__body ul li::before{content:"";position:absolute;left:2px;top:9px;width:7px;height:7px;border-radius:2px;background:var(--kdj-mint)}
+.kdj-aside{position:sticky;top:calc(var(--kdj-sticky) + 20px);display:grid;gap:16px}
+.kdj-aside__box{padding:20px;border-radius:var(--kdj-r);background:linear-gradient(160deg,#2b2148,#4a2f7d);color:#efe8ff}
+.kdj-aside__box h4{font-size:15px;margin-bottom:10px;color:#fff}
+.kdj-aside__box p{font-size:12.8px;color:#cfc5e8}
+.kdj-aside__box .kdj-tag{background:rgba(255,255,255,.16);color:#fff;margin-top:10px}
+.kdj-aside__list{padding:20px;background:#fff;border:1px solid var(--kdj-line);border-radius:var(--kdj-r)}
+.kdj-aside__list h4{font-size:14.5px;margin-bottom:12px}
+.kdj-aside__list li{display:flex;justify-content:space-between;gap:10px;font-size:13px;padding:8px 0;border-bottom:1px dashed var(--kdj-line);color:var(--kdj-ink-2)}
+.kdj-aside__list li:last-child{border-bottom:0}
+.kdj-aside__list b{color:var(--kdj-brand-d);font-weight:700}
+
+/* ---------- S5 作者矩阵：双列简介 ---------- */
+.kdj-authors{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.kdj-author{padding:20px;display:grid;grid-template-columns:58px minmax(0,1fr);gap:16px;align-items:start}
+.kdj-avatar{
+  width:58px;height:58px;border-radius:50%;display:grid;place-items:center;
+  font-weight:800;font-size:19px;color:#fff;letter-spacing:.5px;flex:none;overflow:hidden;
+}
+.kdj-author__name{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:15.5px;font-weight:700}
+.kdj-author__field{font-size:12px;color:var(--kdj-pink-d);font-weight:600;margin-top:2px}
+.kdj-author__bio{font-size:12.8px;color:var(--kdj-ink-2);margin-top:8px}
+.kdj-author__nums{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--kdj-ink-3);margin-top:10px}
+.kdj-author__nums b{color:var(--kdj-ink)}
+.kdj-author__more{
+  margin-top:12px;background:none;border:1px solid var(--kdj-line);color:var(--kdj-brand-d);
+  font-size:12px;padding:5px 12px;border-radius:999px;cursor:pointer;font-weight:600;
+}
+.kdj-author__more:hover{background:#f4efff}
+
+/* ---------- S6 数据榜单 + 评价 ---------- */
+.kdj-rank{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.kdj-rank__col{padding:20px}
+.kdj-rank__col h3{font-size:15.5px;display:flex;align-items:center;gap:8px;margin-bottom:14px}
+.kdj-rank__col h3 i{width:8px;height:8px;border-radius:50%;display:block}
+.kdj-rank li{display:flex;gap:12px;align-items:baseline;padding:9px 0;border-bottom:1px dashed var(--kdj-line);font-size:13.2px}
+.kdj-rank li:last-child{border-bottom:0}
+.kdj-rank__no{font-weight:800;color:#c3b7e2;font-size:14px;width:18px;flex:none;font-variant-numeric:tabular-nums}
+.kdj-rank__name{flex:1;min-width:0;color:var(--kdj-ink-2)}
+.kdj-rank__val{font-size:12px;color:var(--kdj-ink-3);font-variant-numeric:tabular-nums}
+
+.kdj-reviews{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:18px;margin-top:28px}
+.kdj-review{padding:20px;display:flex;flex-direction:column;gap:10px}
+.kdj-review__stars{color:#f0b429;font-size:13px;letter-spacing:2px}
+.kdj-review__txt{font-size:13.4px;color:var(--kdj-ink-2)}
+.kdj-review__who{display:flex;align-items:center;gap:10px;margin-top:auto;padding-top:10px;border-top:1px dashed var(--kdj-line)}
+.kdj-review__who .kdj-avatar{width:32px;height:32px;font-size:12px}
+.kdj-review__who b{font-size:12.8px;display:block}
+.kdj-review__who span{font-size:11.5px;color:var(--kdj-ink-3)}
+
+/* ---------- S7 辅助：动态 / 合作 / FAQ / 投稿 ---------- */
+.kdj-assist{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,0.9fr);gap:26px;align-items:start}
+.kdj-news{padding:24px}
+.kdj-news h3{font-size:17px;margin-bottom:6px}
+.kdj-news__sub{font-size:13px;color:var(--kdj-ink-3);margin-bottom:16px}
+.kdj-news li{display:grid;grid-template-columns:86px minmax(0,1fr);gap:14px;padding:11px 0;border-bottom:1px dashed var(--kdj-line);font-size:13.4px;color:var(--kdj-ink-2)}
+.kdj-news li:last-child{border-bottom:0}
+.kdj-news time{font-size:12px;color:var(--kdj-pink-d);font-weight:600;font-variant-numeric:tabular-nums}
+.kdj-partners{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:16px}
+.kdj-partner{
+  display:flex;align-items:center;gap:10px;padding:12px;border:1px solid var(--kdj-line);
+  border-radius:var(--kdj-r-s);font-size:13px;background:#fbf9ff;min-width:0;
+}
+.kdj-partner i{width:30px;height:30px;border-radius:9px;flex:none;display:grid;place-items:center;font-size:12px;font-weight:800;color:#fff}
+.kdj-partner b{font-weight:700;display:block;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.kdj-partner span{font-size:11.5px;color:var(--kdj-ink-3)}
+
+.kdj-faq{padding:24px}
+.kdj-faq h3{font-size:17px;margin-bottom:14px}
+.kdj-faq details{border-bottom:1px solid var(--kdj-line);padding:12px 0}
+.kdj-faq details:last-of-type{border-bottom:0}
+.kdj-faq summary{
+  cursor:pointer;font-size:14px;font-weight:600;list-style:none;display:flex;gap:10px;align-items:flex-start;
+  color:var(--kdj-ink);
+}
+.kdj-faq summary::-webkit-details-marker{display:none}
+.kdj-faq summary::before{content:"+";color:var(--kdj-brand);font-weight:800;font-size:16px;line-height:1.2;flex:none;width:14px}
+.kdj-faq details[open] summary::before{content:"−"}
+.kdj-faq details p{font-size:13.2px;color:var(--kdj-ink-2);padding:8px 0 0 24px}
+
+.kdj-cta{
+  margin-top:30px;padding:34px;border-radius:22px;color:#f4efff;
+  background:radial-gradient(600px 240px at 85% 0%,rgba(247,183,210,.5),transparent 60%),linear-gradient(130deg,#2b2148,#523089 70%,#7a5cf0);
+  display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:center;
+}
+.kdj-cta h3{font-size:21px;color:#fff;margin-bottom:8px}
+.kdj-cta p{font-size:13.4px;color:#d6ccef;max-width:58ch}
+.kdj-cta__btns{display:flex;gap:10px;flex-wrap:wrap}
+
+/* ---------- 页脚 ---------- */
+.kdj-footer{background:#1d1630;color:#c8bfe0;padding:56px 0 0;margin-top:10px}
+.kdj-footer__grid{display:grid;grid-template-columns:minmax(0,1.4fr) repeat(3,minmax(0,1fr));gap:32px}
+.kdj-footer h4{color:#fff;font-size:14px;margin-bottom:14px}
+.kdj-footer p{font-size:12.8px;line-height:1.9}
+.kdj-footer li{font-size:12.8px;padding:4px 0}
+.kdj-footer a:hover{color:var(--kdj-pink)}
+.kdj-footer__brand{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.kdj-footer__brand b{color:#fff;font-size:16px;letter-spacing:.5px}
+.kdj-footer__bar{margin-top:40px;border-top:1px solid rgba(255,255,255,.1);padding:18px 0;font-size:12px;display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between;color:#9b91b8}
+
+/* ---------- 弹窗 / Toast / 回顶 ---------- */
+.kdj-modal{
+  position:fixed;inset:0;z-index:300;display:none;place-items:center;padding:20px;
+  background:rgba(24,16,44,.55);backdrop-filter:blur(4px);
+}
+.kdj-modal.is-open{display:grid}
+.kdj-modal__box{
+  width:min(520px,100%);background:#fff;border-radius:22px;padding:26px;box-shadow:0 30px 80px rgba(20,10,50,.45);
+  max-height:82vh;overflow:auto;
+}
+.kdj-modal__box h3{font-size:18px;margin-bottom:6px}
+.kdj-modal__box p{font-size:13.4px;color:var(--kdj-ink-2);margin-bottom:10px}
+.kdj-modal__box textarea,.kdj-modal__box input{
+  width:100%;padding:11px 13px;border:1px solid var(--kdj-line);border-radius:12px;
+  font-size:13.5px;font-family:inherit;outline:none;margin-bottom:12px;background:#fbf9ff;color:var(--kdj-ink);
+}
+.kdj-modal__box textarea:focus,.kdj-modal__box input:focus{border-color:var(--kdj-brand);box-shadow:0 0 0 3px rgba(122,92,240,.14)}
+.kdj-modal__close{
+  float:right;border:0;background:#f1ebff;color:var(--kdj-brand-d);width:32px;height:32px;
+  border-radius:50%;cursor:pointer;font-size:16px;line-height:1;
+}
+.kdj-modal__actions{display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap}
+.kdj-toast{
+  position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);z-index:400;
+  background:#241c3a;color:#fff;font-size:13px;padding:11px 20px;border-radius:999px;
+  opacity:0;pointer-events:none;transition:opacity .25s,transform .25s;box-shadow:0 14px 32px rgba(20,10,50,.4);
+}
+.kdj-toast.is-show{opacity:1;transform:translate(-50%,0)}
+.kdj-top-btn{
+  position:fixed;right:20px;bottom:24px;z-index:150;width:44px;height:44px;border-radius:50%;
+  border:1px solid #d9cff2;background:#fff;color:var(--kdj-brand-d);cursor:pointer;
+  box-shadow:var(--kdj-shadow);display:grid;place-items:center;opacity:0;pointer-events:none;
+  transition:opacity .25s,transform .25s;
+}
+.kdj-top-btn.is-show{opacity:1;pointer-events:auto}
+.kdj-top-btn:hover{transform:translateY(-3px)}
+
+/* ---------- 响应式 ---------- */
+@media (max-width:1024px){
+  .kdj-hero__in{grid-template-columns:1fr;gap:36px;padding:48px 20px 56px}
+  .kdj-hero__visual{max-width:620px}
+  .kdj-focus__grid{grid-template-columns:1fr}
+  .kdj-essay{grid-template-columns:1fr}
+  .kdj-aside{position:static;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+  .kdj-assist{grid-template-columns:1fr}
+  .kdj-footer__grid{grid-template-columns:1fr 1fr}
+  .kdj-cta{grid-template-columns:1fr}
+}
+@media (max-width:860px){
+  .kdj-nav{display:none;position:absolute;left:0;right:0;top:100%;background:#fff;
+    border-bottom:1px solid var(--kdj-line);padding:12px 20px;gap:2px;flex-direction:column;
+    box-shadow:0 16px 30px rgba(60,40,110,.12)}
+  .kdj-nav.is-open{display:flex}
+  .kdj-nav a{padding:10px 12px;border-radius:10px}
+  .kdj-burger{display:flex}
+  .kdj-search{display:none;width:100%;margin-left:0}
+  .kdj-search.is-open{display:block;position:absolute;left:20px;right:20px;top:calc(100% + 8px)}
+  .kdj-header__in{position:relative;flex-wrap:wrap}
+}
+@media (max-width:760px){
+  .kdj-topbar{font-size:12px;padding:7px 14px;gap:10px}
+  .kdj-topbar__tag{font-size:11px;padding:2px 8px}
+  .kdj-header{top:34px}
+  .kdj-hero__stats{grid-template-columns:1fr 1fr;gap:10px}
+  .kdj-vitem{grid-template-columns:1fr}
+  .kdj-vitem__ops{justify-content:flex-start}
+  .kdj-authors,.kdj-topics,.kdj-reviews,.kdj-rank{grid-template-columns:1fr}
+  .kdj-mini{grid-template-columns:78px minmax(0,1fr)}
+  .kdj-sec{padding:52px 0}
+  .kdj-cta{padding:24px}
+  .kdj-footer__grid{grid-template-columns:1fr}
+  .kdj-essay__body h3{font-size:17px}
+}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<!-- S1 公告条 + 页头 -->
+<div class="kdj-topbar" id="kdj-topbar">
+  <span class="kdj-topbar__tag">官方发布</span>
+  <div class="kdj-topbar__track">
+    <ul class="kdj-topbar__list" id="kdj-ticker">
+      <li><b>新增</b> 《果冻色七分钟》梦幻短片第二季 11 月 20 日上线，首周播放破 42 万</li>
+      <li><b>更新</b> 创作者中心新增“空丶专题”投稿标签，稿件审核提速至 24 小时</li>
+      <li><b>报名</b> 第三届“梦幻果冻影像挑战赛”开放报名，投稿截止 12 月 18 日</li>
+      <li><b>上线</b> 高清 4K 播放与正版素材库同步开放，全站创作者均可免费下载使用</li>
+      <li><b>动态</b> 品牌社区本月新增 1,286 位创作者，果冻系内容标签达 3,900 条</li>
+    </ul>
+  </div>
+</div>
+
+<header class="kdj-header">
+  <div class="kdj-header__in">
+    <a class="kdj-logo" href="#kdj-hero" aria-label="51空丶梦幻丶果冻官方网站首页">
+      <svg class="kdj-logo__mark" viewBox="0 0 64 64" aria-hidden="true">
+        <defs>
+          <linearGradient id="kdjLogoG" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#f7b7d2"/><stop offset="1" stop-color="#7a5cf0"/>
+          </linearGradient>
+        </defs>
+        <rect width="64" height="64" rx="18" fill="#2b2148"/>
+        <path d="M32 11c9.5 0 17 7.5 17 17 0 13-10.5 21.5-17 25-6.5-3.5-17-12-17-25 0-9.5 7.5-17 17-17z" fill="url(#kdjLogoG)"/>
+        <circle cx="25.5" cy="28" r="3" fill="#fff" opacity=".9"/>
+        <circle cx="38.5" cy="28" r="3" fill="#fff" opacity=".9"/>
+        <path d="M24 38c2.6 2.6 5.3 3.8 8 3.8s5.4-1.2 8-3.8" stroke="#2b2148" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+      </svg>
+      <span class="kdj-logo__txt">
+        <span class="kdj-logo__name">51空丶梦幻丶果冻</span>
+        <span class="kdj-logo__sub">OFFICIAL VIDEO</span>
+      </span>
+    </a>
+
+    <nav class="kdj-nav" id="kdj-nav" aria-label="主导航">
+      <a href="#kdj-focus">焦点推荐</a>
+      <a href="#kdj-topics">专题企划</a>
+      <a href="#kdj-videos">视频社区</a>
+      <a href="#kdj-authors">创作者</a>
+      <a href="#kdj-rank">数据榜单</a>
+      <a href="#kdj-essay">品牌解析</a>
+      <a href="#kdj-assist">帮助与动态</a>
+    </nav>
+
+    <div class="kdj-search" id="kdj-search">
+      <svg class="kdj-search__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <circle cx="11" cy="11" r="7" stroke="#7d7595" stroke-width="2"/>
+        <path d="M16.5 16.5 21 21" stroke="#7d7595" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <label class="kdj-sr" for="kdj-search-input">搜索站内视频与创作者</label>
+      <input id="kdj-search-input" type="search" placeholder="搜索视频 / 创作者 / 专题" autocomplete="off">
+      <div class="kdj-search__hint" id="kdj-search-hint" role="status" aria-live="polite"></div>
+    </div>
+
+    <button class="kdj-burger" id="kdj-burger" aria-label="展开导航" aria-expanded="false" aria-controls="kdj-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+<!-- S2 首屏 -->
+<section class="kdj-hero" id="kdj-hero">
+  <div class="kdj-hero__in">
+    <div class="kdj-hero__text">
+      <span class="kdj-hero__badge"><i></i>梦幻果冻品牌官方网站 · 持续运营中</span>
+      <h1>51空丶梦幻丶果冻 <em>官方视频门户</em></h1>
+      <p class="kdj-hero__lead">
+        作为深耕梦幻影像与果冻系美学的<strong>品牌官方网站</strong>，我们把镜头交给真实的创作者：
+        从七分钟短片到日常一帧，从空丶专题实验影像到果冻色生活记录，这里是一个高品质、正版的原创视频内容生态。
+        企业级内容标准与社区温度并行，让每一次上传都被认真对待。
+      </p>
+      <div class="kdj-hero__actions">
+        <a class="kdj-btn kdj-btn--primary" href="#kdj-videos">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M8 5v14l11-7z" fill="#fff"/></svg>
+          进入视频社区
+        </a>
+        <a class="kdj-btn kdj-btn--ghost" href="#kdj-authors">认识创作者</a>
+        <button class="kdj-btn kdj-btn--ghost" type="button" data-kdj-open="submit">我要投稿</button>
+      </div>
+      <div class="kdj-hero__stats">
+        <div class="kdj-hero__stat"><b data-kdj-count="4200">4,200+</b><span>原创高清视频</span></div>
+        <div class="kdj-hero__stat"><b data-kdj-count="1286">1,286</b><span>在册创作者</span></div>
+        <div class="kdj-hero__stat"><b data-kdj-count="96">98.6%</b><span>社区正向口碑</span></div>
+      </div>
+    </div>
+
+    <div class="kdj-hero__visual">
+      <div class="kdj-hero__frame">
+        <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 550'%3E%3Cdefs%3E%3ClinearGradient id='sky' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%232b2148'/%3E%3Cstop offset='1' stop-color='%236d43a8'/%3E%3C/linearGradient%3E%3ClinearGradient id='jel' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23f7b7d2'/%3E%3Cstop offset='1' stop-color='%23ffcf7a'/%3E%3C/linearGradient%3E%3CradialGradient id='glow' cx='50%25' cy='45%25' r='55%25'%3E%3Cstop offset='0' stop-color='%23ffffff' stop-opacity='.55'/%3E%3Cstop offset='1' stop-color='%23ffffff' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect width='800' height='550' fill='url(%23sky)'/%3E%3Ccircle cx='400' cy='260' r='230' fill='url(%23glow)'/%3E%3Cpath d='M0 430c120-60 210 20 330-30s180-90 310-24 160 54 160 54v120H0z' fill='%234a2f7d' opacity='.85'/%3E%3Cellipse cx='400' cy='270' rx='132' ry='146' fill='url(%23jel)' opacity='.92'/%3E%3Cellipse cx='400' cy='270' rx='132' ry='146' fill='none' stroke='%23ffffff' stroke-opacity='.55' stroke-width='3'/%3E%3Cellipse cx='360' cy='222' rx='42' ry='26' fill='%23ffffff' opacity='.45' transform='rotate(-24 360 222)'/%3E%3Ccircle cx='352' cy='268' r='13' fill='%232b2148' opacity='.8'/%3E%3Ccircle cx='448' cy='268' r='13' fill='%232b2148' opacity='.8'/%3E%3Cpath d='M368 320c22 22 42 22 64 0' stroke='%232b2148' stroke-width='8' fill='none' stroke-linecap='round' opacity='.75'/%3E%3Cg fill='%23ffffff' opacity='.8'%3E%3Ccircle cx='150' cy='120' r='4'/%3E%3Ccircle cx='220' cy='80' r='3'/%3E%3Ccircle cx='650' cy='110' r='5'/%3E%3Ccircle cx='700' cy='190' r='3'/%3E%3Ccircle cx='110' cy='220' r='3'/%3E%3C/g%3E%3Cg stroke='%23f7b7d2' stroke-width='2' opacity='.6' fill='none'%3E%3Cpath d='M80 360h110l40-40'/%3E%3Cpath d='M720 330H620l-50 46'/%3E%3C/g%3E%3C/svg%3E" alt="51空丶梦幻丶果冻官方首屏主视觉：紫色夜空中漂浮的果冻形光体与创作者镜头" width="800" height="550">
+        <span class="kdj-hero__play"><i></i>正在播放 · 果冻色七分钟 预告</span>
+      </div>
+      <div class="kdj-hero__chip"><b>4K 高清</b><br>正版授权素材</div>
+      <div class="kdj-hero__chip2">本周更新 <b>36</b> 条原创短片</div>
+    </div>
+  </div>
+</section>
+
+<!-- S3 焦点推荐 -->
+<section class="kdj-sec" id="kdj-focus">
+  <div class="kdj-wrap">
+    <div class="kdj-sec__head">
+      <div>
+        <span class="kdj-sec__kicker">Featured / 焦点</span>
+        <h2 class="kdj-sec__title">本周果冻焦点：官方网站精选推荐</h2>
+        <p class="kdj-sec__desc">编辑部与创作者共同挑选，聚焦梦幻影像、真实记录与原创短片的精品内容。</p>
+      </div>
+      <a class="kdj-sec__more" href="#kdj-videos">查看全部视频</a>
+    </div>
+
+    <div class="kdj-focus__grid">
+      <article class="kdj-card kdj-focus__main">
+        <figure>
+          <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Cdefs%3E%3ClinearGradient id='f1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23f7b7d2'/%3E%3Cstop offset='1' stop-color='%237a5cf0'/%3E%3C/linearGradient%3E%3ClinearGradient id='f2' x1='0' y1='1' x2='1' y2='0'%3E%3Cstop offset='0' stop-color='%23ffffff' stop-opacity='.9'/%3E%3Cstop offset='1' stop-color='%23ffffff' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='450' fill='%232b2148'/%3E%3Cpath d='M0 300c150-70 260 40 400-20s240-110 400-40v210H0z' fill='url(%23f1)' opacity='.7'/%3E%3Ccircle cx='250' cy='170' r='92' fill='%23ffcf7a' opacity='.85'/%3E%3Ccircle cx='250' cy='170' r='92' fill='url(%23f2)'/%3E%3Crect x='430' y='96' width='250' height='150' rx='16' fill='%23ffffff' opacity='.18' stroke='%23ffffff' stroke-opacity='.5'/%3E%3Cpath d='M498 171l40 26 40-26-40-26z' fill='%23fff' opacity='.9'/%3E%3Cg fill='%23ffffff' opacity='.65'%3E%3Crect x='430' y='280' width='170' height='12' rx='6'/%3E%3Crect x='430' y='308' width='230' height='12' rx='6'/%3E%3Crect x='430' y='336' width='120' height='12' rx='6'/%3E%3C/g%3E%3C/svg%3E" alt="焦点短片《果冻色七分钟》封面：琥珀色光球与半透明播放窗口" width="800" height="450">
+        </figure>
+        <div class="kdj-focus__body">
+          <span class="kdj-tag kdj-tag--pink">官方精品</span>
+          <h3>果冻色七分钟：一场关于空丶与光的实验短片</h3>
+          <p>三个月的拍摄日记被压缩成七分钟。导演用果冻质感的转场、呼吸感长镜头和一段现场录制的环境音，讲述一名创作者在空荡房间里等待灵感降临的过程。全片 4K 高清，素材全部来自平台正版库，可作为新人学习分镜与调色的参考样本。</p>
+          <div class="kdj-focus__meta">
+            <span>作者 · 果冻放映室</span><span>播放 42.8 万</span><span>点赞 3.6 万</span><span>收藏 1.2 万</span>
+          </div>
+        </div>
+      </article>
+
+      <div class="kdj-focus__side">
+        <article class="kdj-card kdj-mini">
+          <figure>
+            <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 220'%3E%3Crect width='320' height='220' fill='%23332a52'/%3E%3Ccircle cx='80' cy='70' r='40' fill='%238fe3cf' opacity='.85'/%3E%3Cpath d='M0 170l70-50 60 36 60-56 130 80v40H0z' fill='%237a5cf0' opacity='.8'/%3E%3Ccircle cx='250' cy='60' r='18' fill='%23ffcf7a'/%3E%3C/svg%3E" alt="《空房间里的第十二次尝试》封面：薄荷绿圆形与紫色山脊构成的城市剪影" width="320" height="220">
+          </figure>
+          <div>
+            <h4>空房间里的第十二次尝试</h4>
+            <p>失败素材合集反而更动人，创作者把 NG 剪成了一条完整的成长线。</p>
+          </div>
+        </article>
+        <article class="kdj-card kdj-mini">
+          <figure>
+            <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 220'%3E%3Crect width='320' height='220' fill='%23fdf1f6'/%3E%3Cg stroke='%23e07aa8' stroke-width='3' fill='none'%3E%3Cpath d='M40 180c40-90 90-120 130-60s70 30 110-40'/%3E%3C/g%3E%3Ccircle cx='110' cy='90' r='26' fill='%237a5cf0' opacity='.8'/%3E%3Ccircle cx='230' cy='140' r='18' fill='%23ffcf7a'/%3E%3C/svg%3E" alt="《果冻质感怎么拍》封面：粉色背景上的曲线轨迹与两枚彩色圆点" width="320" height="220">
+          </figure>
+          <div>
+            <h4>果冻质感怎么拍：三种布光方案</h4>
+            <p>从柔光箱到台灯，预算不同也能拍出通透半透明的质感。</p>
+          </div>
+        </article>
+        <article class="kdj-card kdj-mini">
+          <figure>
+            <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 220'%3E%3Crect width='320' height='220' fill='%23241c3a'/%3E%3Cg fill='%23f7b7d2'%3E%3Crect x='40' y='120' width='26' height='70' rx='6'/%3E%3Crect x='86' y='90' width='26' height='100' rx='6'/%3E%3Crect x='132' y='60' width='26' height='130' rx='6' fill='%238fe3cf'/%3E%3Crect x='178' y='100' width='26' height='90' rx='6'/%3E%3Crect x='224' y='76' width='26' height='114' rx='6' fill='%23ffcf7a'/%3E%3C/g%3E%3C/svg%3E" alt="《一年内容数据复盘》封面：深色背景上的粉色与薄荷色柱状数据图" width="320" height="220">
+          </figure>
+          <div>
+            <h4>一年内容数据复盘：播放量之外</h4>
+            <p>收藏率、完播率与评论情绪，三张图讲清果冻系内容的口碑结构。</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- S3 视频社区列表 -->
+<section class="kdj-sec kdj-sec--tint" id="kdj-videos">
+  <div class="kdj-wrap">
+    <div class="kdj-sec__head">
+      <div>
+        <span class="kdj-sec__kicker">Community / 视频社区</span>
+        <h2 class="kdj-sec__title">原创视频流：真实、温暖、值得信赖</h2>
+        <p class="kdj-sec__desc">以下条目由平台创作者上传，经官方审核后进入社区推荐；点赞与收藏为实时交互，可自行体验。</p>
+      </div>
+      <a class="kdj-sec__more" href="#kdj-authors">成为创作者</a>
+    </div>
+
+    <ul class="kdj-vlist" id="kdj-vlist">
+      <li class="kdj-vitem" data-kdj-key="果冻 七分钟 短片 实验">
+        <div class="kdj-vitem__main">
+          <div class="kdj-vitem__title">果冻色七分钟 <span class="kdj-tag">官方精品</span></div>
+          <p class="kdj-vitem__desc">七个固定机位、七段环境音，记录一次从空白到成片的完整实验，适合学习长镜头与节奏控制。</p>
+          <div class="kdj-vitem__tags"><span class="kdj-tag kdj-tag--pink">创作幕后</span><span class="kdj-tag">空丶专题</span><span class="kdj-tag kdj-tag--mint">4K 高清</span></div>
+          <div class="kdj-vitem__stats"><span>果冻放映室</span><span>播放 42.8 万</span><span data-kdj-like-count>点赞 3.6 万</span><span data-kdj-fav-count>收藏 1.2 万</span></div>
+        </div>
+        <div class="kdj-vitem__ops">
+          <button class="kdj-op" type="button" data-kdj-like aria-pressed="false">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 10v10H4V10h3zm4 10a2 2 0 0 1-2-2v-6l3-6 2 1v4h5a2 2 0 0 1 2 2l-2 6a2 2 0 0 1-2 1h-6z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>点赞
+          </button>
+          <button class="kdj-op" type="button" data-kdj-fav aria-pressed="false">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20s-7-4.5-7-9.5A4 4 0 0 1 12 7a4 4 0 0 1 7 3.5C19 15.5 12 20 12 20z" stroke="currentColor" stroke-width="1.8"/></svg>收藏
+          </button>
+          <button class="kdj-op" type="button" data-kdj-copy>复制链接</button>
+        </div>
+      </li>
+
+      <li class="kdj-vitem" data-kdj-key="布光 教程 果冻 质感">
+        <div class="kdj-vitem__main">
+          <div class="kdj-vitem__title">果冻质感布光课：三套方案的实拍对比</div>
+          <p class="kdj-vitem__desc">从 30 元台灯到双柔光箱，同一组果冻道具拍三次，对比颜色、通透度与背景层次差异。</p>
+          <div class="kdj-vitem__tags"><span class="kdj-tag kdj-tag--pink">教程干货</span><span class="kdj-tag">实用技巧</span></div>
+          <div class="kdj-vitem__stats"><span>灯光小满</span><span>播放 18.6 万</span><span data-kdj-like-count>点赞 2.1 万</span><span data-kdj-fav-count>收藏 9,840</span></div>
+        </div>
+        <div class="kdj-vitem__ops">
+          <button class="kdj-op" type="button" data-kdj-like aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 10v10H4V10h3zm4 10a2 2 0 0 1-2-2v-6l3-6 2 1v4h5a2 2 0 0 1 2 2l-2 6a2 2 0 0 1-2 1h-6z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>点赞</button>
+          <button class="kdj-op" type="button" data-kdj-fav aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20s-7-4.5-7-9.5A4 4 0 0 1 12 7a4 4 0 0 1 7 3.5C19 15.5 12 20 12 20z" stroke="currentColor" stroke-width="1.8"/></svg>收藏</button>
+          <button class="kdj-op" type="button" data-kdj-copy>复制链接</button>
+        </div>
+      </li>
+
+      <li class="kdj-vitem" data-kdj-key="城市 夜行 记录 在地">
+        <div class="kdj-vitem__main">
+          <div class="kdj-vitem__title">城市夜行：在便利店门口等一场雨停</div>
+          <p class="kdj-vitem__desc">没有脚本的十五分钟。摄影机架在便利店玻璃外，记录下班的、等人的、买关东煮的陌生人们。</p>
+          <div class="kdj-vitem__tags"><span class="kdj-tag kdj-tag--mint">城市探索</span><span class="kdj-tag">日常记录</span><span class="kdj-tag kdj-tag--amber">治愈影像</span></div>
+          <div class="kdj-vitem__stats"><span>南巷胶片</span><span>播放 26.3 万</span><span data-kdj-like-count>点赞 2.9 万</span><span data-kdj-fav-count>收藏 1.4 万</span></div>
+        </div>
+        <div class="kdj-vitem__ops">
+          <button class="kdj-op" type="button" data-kdj-like aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 10v10H4V10h3zm4 10a2 2 0 0 1-2-2v-6l3-6 2 1v4h5a2 2 0 0 1 2 2l-2 6a2 2 0 0 1-2 1h-6z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>点赞</button>
+          <button class="kdj-op" type="button" data-kdj-fav aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20s-7-4.5-7-9.5A4 4 0 0 1 12 7a4 4 0 0 1 7 3.5C19 15.5 12 20 12 20z" stroke="currentColor" stroke-width="1.8"/></svg>收藏</button>
+          <button class="kdj-op" type="button" data-kdj-copy>复制链接</button>
+        </div>
+      </li>
+
+      <li class="kdj-vitem" data-kdj-key="访谈 创作者 品牌 故事">
+        <div class="kdj-vitem__main">
+          <div class="kdj-vitem__title">访谈：把失败素材剪成一条片，我用了两年</div>
+          <p class="kdj-vitem__desc">与创作者「慢慢拍」聊了 70 分钟，关于放弃、重剪、以及为什么坚持在平台上持续更新。</p>
+          <div class="kdj-vitem__tags"><span class="kdj-tag kdj-tag--pink">人物访谈</span><span class="kdj-tag">品牌故事</span></div>
+          <div class="kdj-vitem__stats"><span>果冻编辑部</span><span>播放 11.2 万</span><span data-kdj-like-count>点赞 1.3 万</span><span data-kdj-fav-count>收藏 6,120</span></div>
+        </div>
+        <div class="kdj-vitem__ops">
+          <button class="kdj-op" type="button" data-kdj-like aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 10v10H4V10h3zm4 10a2 2 0 0 1-2-2v-6l3-6 2 1v4h5a2 2 0 0 1 2 2l-2 6a2 2 0 0 1-2 1h-6z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>点赞</button>
+          <button class="kdj-op" type="button" data-kdj-fav aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20s-7-4.5-7-9.5A4 4 0 0 1 12 7a4 4 0 0 1 7 3.5C19 15.5 12 20 12 20z" stroke="currentColor" stroke-width="1.8"/></svg>收藏</button>
+          <button class="kdj-op" type="button" data-kdj-copy>复制链接</button>
+        </div>
+      </li>
+
+      <li class="kdj-vitem" data-kdj-key="城市 晨跑 健康 运动">
+        <div class="kdj-vitem__main">
+          <div class="kdj-vitem__title">清晨六点的环湖跑，和一段不加速的城市</div>
+          <p class="kdj-vitem__desc">手持稳定器跟拍 5 公里，全程无变速，保留真实呼吸声与脚步声，作为跑步记录的参考素材。</p>
+          <div class="kdj-vitem__tags"><span class="kdj-tag kdj-tag--mint">健康运动</span><span class="kdj-tag">生活方式</span></div>
+          <div class="kdj-vitem__stats"><span>阿棠在路上</span><span>播放 9.4 万</span><span data-kdj-like-count>点赞 8,760</span><span data-kdj-fav-count>收藏 4,310</span></div>
+        </div>
+        <div class="kdj-vitem__ops">
+          <button class="kdj-op" type="button" data-kdj-like aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 10v10H4V10h3zm4 10a2 2 0 0 1-2-2v-6l3-6 2 1v4h5a2 2 0 0 1 2 2l-2 6a2 2 0 0 1-2 1h-6z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>点赞</button>
+          <button class="kdj-op" type="button" data-kdj-fav aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20s-7-4.5-7-9.5A4 4 0 0 1 12 7a4 4 0 0 1 7 3.5C19 15.5 12 20 12 20z" stroke="currentColor" stroke-width="1.8"/></svg>收藏</button>
+          <button class="kdj-op" type="button" data-kdj-copy>复制链接</button>
+        </div>
+      </li>
+
+      <li class="kdj-vitem" data-kdj-key="手作 果冻 甜品 制作">
+        <div class="kdj-vitem__main">
+          <div class="kdj-vitem__title">在家做一份透明果冻：三次失败与一次成功</div>
+          <p class="kdj-vitem__desc">从凝固剂比例到脱模温度，完整记录失败过程。片尾附一张可直接保存的配比表。</p>
+          <div class="kdj-vitem__tags"><span class="kdj-tag kdj-tag--amber">手作 DIY</span><span class="kdj-tag">美食烹饪</span><span class="kdj-tag kdj-tag--pink">教程干货</span></div>
+          <div class="kdj-vitem__stats"><span>甜度实验室</span><span>播放 15.7 万</span><span data-kdj-like-count>点赞 1.8 万</span><span data-kdj-fav-count>收藏 1.1 万</span></div>
+        </div>
+        <div class="kdj-vitem__ops">
+          <button class="kdj-op" type="button" data-kdj-like aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 10v10H4V10h3zm4 10a2 2 0 0 1-2-2v-6l3-6 2 1v4h5a2 2 0 0 1 2 2l-2 6a2 2 0 0 1-2 1h-6z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>点赞</button>
+          <button class="kdj-op" type="button" data-kdj-fav aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20s-7-4.5-7-9.5A4 4 0 0 1 12 7a4 4 0 0 1 7 3.5C19 15.5 12 20 12 20z" stroke="currentColor" stroke-width="1.8"/></svg>收藏</button>
+          <button class="kdj-op" type="button" data-kdj-copy>复制链接</button>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- S4 专题 -->
+<section class="kdj-sec" id="kdj-topics">
+  <div class="kdj-wrap">
+    <div class="kdj-sec__head">
+      <div>
+        <span class="kdj-sec__kicker">Series / 专题企划</span>
+        <h2 class="kdj-sec__title">正在更新的果冻专题企划</h2>
+        <p class="kdj-sec__desc">由官方策展、创作者共建的主题单元，每个专题持续收录新作品，状态实时更新。</p>
+      </div>
+    </div>
+
+    <div class="kdj-topics">
+      <article class="kdj-card kdj-topic">
+        <div class="kdj-topic__head"><h3>空丶：空白房间的十二种可能</h3><span class="kdj-tag kdj-tag--mint">更新中</span></div>
+        <p class="kdj-topic__desc">一个空房间、一台摄影机、十二位创作者，各自用七分钟拍出不同的情绪。</p>
+        <ul>
+          <li>第七期 · 只用一盏灯的房间</li>
+          <li>第八期 · 声音先行的无人物短片</li>
+          <li>第九期 · 二十四小时不下楼</li>
+        </ul>
+        <div class="kdj-topic__foot">已收录 9 期 · 总播放 186 万</div>
+      </article>
+
+      <article class="kdj-card kdj-topic">
+        <div class="kdj-topic__head"><h3>果冻色生活：日常记录计划</h3><span class="kdj-tag">更新中</span></div>
+        <p class="kdj-topic__desc">不讲道理，只讲生活。用一分钟记录一天里最柔软的那个瞬间。</p>
+        <ul>
+          <li>第 41 篇 · 阳台上的第三盆绿植</li>
+          <li>第 42 篇 · 楼下便利店的猫又来了</li>
+          <li>第 43 篇 · 雨天的厨房与热汤面</li>
+        </ul>
+        <div class="kdj-topic__foot">已收录 43 篇 · 参与创作者 126 位</div>
+      </article>
+
+      <article class="kdj-card kdj-topic">
+        <div class="kdj-topic__head"><h3>梦幻剪辑室：幕后拆解</h3><span class="kdj-tag kdj-tag--amber">每周四更</span></div>
+        <p class="kdj-topic__desc">从分镜到调色，把成片拆开给你看。适合有基础、想提升完成度的创作者。</p>
+        <ul>
+          <li>拆解《七分钟》的转场设计逻辑</li>
+          <li>如何用三轨音频做出空间感</li>
+          <li>低成本调色：果冻质感色板</li>
+        </ul>
+        <div class="kdj-topic__foot">已收录 17 期 · 平均完播率 62%</div>
+      </article>
+
+      <article class="kdj-card kdj-topic">
+        <div class="kdj-topic__head"><h3>真实一分钟：素人影像征集</h3><span class="kdj-tag kdj-tag--pink">报名中</span></div>
+        <p class="kdj-topic__desc">不要求设备、不要求技法，只要真实。入选作品将进入官方正版专题展示。</p>
+        <ul>
+          <li>第三届挑战赛 · 主题「陪伴」</li>
+          <li>投稿截至 12 月 18 日 23:59</li>
+          <li>入选可获高清素材库年度使用资格</li>
+        </ul>
+        <div class="kdj-topic__foot">已收到 328 份投稿 · 审核 24 小时内反馈</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- S5 作者矩阵 -->
+<section class="kdj-sec kdj-sec--tint" id="kdj-authors">
+  <div class="kdj-wrap">
+    <div class="kdj-sec__head">
+      <div>
+        <span class="kdj-sec__kicker">Creators / 创作者</span>
+        <h2 class="kdj-sec__title">社区里的 5 位果冻系创作者</h2>
+        <p class="kdj-sec__desc">他们代表了这个平台的多元与真实：有人拍实验影像，有人记录街巷，有人只做教程。</p>
+      </div>
+      <button class="kdj-btn kdj-btn--ghost" type="button" data-kdj-open="submit">申请入驻</button>
+    </div>
+
+    <div class="kdj-authors">
+      <article class="kdj-card kdj-author">
+        <span class="kdj-avatar" style="background:linear-gradient(135deg,#7a5cf0,#c3a7ff)">果</span>
+        <div>
+          <div class="kdj-author__name">果冻放映室 <span class="kdj-tag kdj-tag--pink">官方号</span></div>
+          <div class="kdj-author__field">实验短片 · 影像策展</div>
+          <p class="kdj-author__bio">官方影像团队，负责果冻季专题的策划与拍摄。擅长用固定机位与自然光讲故事，作品强调留白与呼吸感。过去两年主导了《空丶》系列的全部制作，并开放全部分镜手稿供社区下载学习。</p>
+          <div class="kdj-author__nums"><span>作品 <b>86</b></span><span>粉丝 <b>12.4 万</b></span></div>
+          <button class="kdj-author__more" type="button" data-kdj-open="author" data-kdj-author="果冻放映室">查看简介</button>
+        </div>
+      </article>
+
+      <article class="kdj-card kdj-author">
+        <span class="kdj-avatar" style="background:linear-gradient(135deg,#e07aa8,#f7b7d2)">慢</span>
+        <div>
+          <div class="kdj-author__name">慢慢拍</div>
+          <div class="kdj-author__field">日常记录 · 成长叙事</div>
+          <p class="kdj-author__bio">独立创作者，习惯把失败素材留到第二年再剪。坚持每周更新一条一分钟内的生活片段，用极慢的节奏累积出属于自己的影像年表。她说，记录本身就是一种陪伴。</p>
+          <div class="kdj-author__nums"><span>作品 <b>142</b></span><span>粉丝 <b>8.7 万</b></span></div>
+          <button class="kdj-author__more" type="button" data-kdj-open="author" data-kdj-author="慢慢拍">查看简介</button>
+        </div>
+      </article>
+
+      <article class="kdj-card kdj-author">
+        <span class="kdj-avatar" style="background:linear-gradient(135deg,#1f8a72,#8fe3cf)">灯</span>
+        <div>
+          <div class="kdj-author__name">灯光小满</div>
+          <div class="kdj-author__field">教程干货 · 布光技巧</div>
+          <p class="kdj-author__bio">前商业摄影灯光师，现在专职做视频教程。课程风格务实，喜欢用平价器材做对比实验，让新手也能在出租屋里拍出通透的质感。系列课程累计帮助超过 2 万名用户完成第一条成片。</p>
+          <div class="kdj-author__nums"><span>作品 <b>64</b></span><span>粉丝 <b>6.2 万</b></span></div>
+          <button class="kdj-author__more" type="button" data-kdj-open="author" data-kdj-author="灯光小满">查看简介</button>
+        </div>
+      </article>
+
+      <article class="kdj-card kdj-author">
+        <span class="kdj-avatar" style="background:linear-gradient(135deg,#9a6a13,#ffcf7a)">南</span>
+        <div>
+          <div class="kdj-author__name">南巷胶片</div>
+          <div class="kdj-author__field">城市探索 · 在地文化</div>
+          <p class="kdj-author__bio">长期在南方城市的老街里游荡，带着一台旧机器拍陌生人的背影。作品常被形容为“安静得有点吵”，因为环境音从不做降噪处理。他相信城市的声音就是最好的配乐。</p>
+          <div class="kdj-author__nums"><span>作品 <b>98</b></span><span>粉丝 <b>5.4 万</b></span></div>
+          <button class="kdj-author__more" type="button" data-kdj-open="author" data-kdj-author="南巷胶片">查看简介</button>
+        </div>
+      </article>
+
+      <article class="kdj-card kdj-author">
+        <span class="kdj-avatar" style="background:linear-gradient(135deg,#5b3fd6,#8fe3cf)">甜</span>
+        <div>
+          <div class="kdj-author__name">甜度实验室</div>
+          <div class="kdj-author__field">手作 DIY · 美食烹饪</div>
+          <p class="kdj-author__bio">把厨房当实验室的甜品爱好者，擅长把失败过程完整保留在片子里。她的视频结尾总有一张可保存的配比表，被社区称为“最不藏私的教程”。最近开始尝试把果冻质感延伸到非食物题材。</p>
+          <div class="kdj-author__nums"><span>作品 <b>73</b></span><span>粉丝 <b>7.9 万</b></span></div>
+          <button class="kdj-author__more" type="button" data-kdj-open="author" data-kdj-author="甜度实验室">查看简介</button>
+        </div>
+      </article>
+
+      <article class="kdj-card kdj-author">
+        <span class="kdj-avatar" style="background:linear-gradient(135deg,#4a2f7d,#e07aa8)">阿</span>
+        <div>
+          <div class="kdj-author__name">阿棠在路上</div>
+          <div class="kdj-author__field">健康运动 · 户外活动</div>
+          <p class="kdj-author__bio">跑步第八年，用镜头记录清晨的城市。坚持不加速、不配音、不加滤镜，把真实的心率和脚步声交给观众。她的系列被很多新手当作跑步入门参考，也带动了社区的晨跑打卡计划。</p>
+          <div class="kdj-author__nums"><span>作品 <b>55</b></span><span>粉丝 <b>4.6 万</b></span></div>
+          <button class="kdj-author__more" type="button" data-kdj-open="author" data-kdj-author="阿棠在路上">查看简介</button>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- S6 榜单 + 评价 -->
+<section class="kdj-sec" id="kdj-rank">
+  <div class="kdj-wrap">
+    <div class="kdj-sec__head">
+      <div>
+        <span class="kdj-sec__kicker">Rank / 数据榜单</span>
+        <h2 class="kdj-sec__title">本周榜单与真实用户评价</h2>
+        <p class="kdj-sec__desc">热度不只是播放量，也包括收藏、完播与评论情绪。数据每周一由官方更新。</p>
+      </div>
+    </div>
+
+    <div class="kdj-rank">
+      <div class="kdj-card kdj-rank__col">
+        <h3><i style="background:#e07aa8"></i>热度榜 · 本周</h3>
+        <ul>
+          <li><span class="kdj-rank__no">01</span><span class="kdj-rank__name">果冻色七分钟</span><span class="kdj-rank__val">42.8 万</span></li>
+          <li><span class="kdj-rank__no">02</span><span class="kdj-rank__name">城市夜行：等雨停</span><span class="kdj-rank__val">26.3 万</span></li>
+          <li><span class="kdj-rank__no">03</span><span class="kdj-rank__name">果冻质感布光课</span><span class="kdj-rank__val">18.6 万</span></li>
+          <li><span class="kdj-rank__no">04</span><span class="kdj-rank__name">透明果冻制作记录</span><span class="kdj-rank__val">15.7 万</span></li>
+          <li><span class="kdj-rank__no">05</span><span class="kdj-rank__name">访谈：失败素材两年</span><span class="kdj-rank__val">11.2 万</span></li>
+        </ul>
+      </div>
+
+      <div class="kdj-card kdj-rank__col">
+        <h3><i style="background:#8fe3cf"></i>新人榜 · 本月</h3>
+        <ul>
+          <li><span class="kdj-rank__no">01</span><span class="kdj-rank__name">小满的窗台</span><span class="kdj-rank__val">首作 6.4 万</span></li>
+          <li><span class="kdj-rank__no">02</span><span class="kdj-rank__name">十分钟厨房</span><span class="kdj-rank__val">首作 5.1 万</span></li>
+          <li><span class="kdj-rank__no">03</span><span class="kdj-rank__name">夜班公交车</span><span class="kdj-rank__val">首作 4.7 万</span></li>
+          <li><span class="kdj-rank__no">04</span><span class="kdj-rank__name">纸箱里的猫</span><span class="kdj-rank__val">首作 3.9 万</span></li>
+          <li><span class="kdj-rank__no">05</span><span class="kdj-rank__name">周末不加班</span><span class="kdj-rank__val">首作 3.2 万</span></li>
+        </ul>
+      </div>
+
+      <div class="kdj-card kdj-rank__col">
+        <h3><i style="background:#ffcf7a"></i>口碑榜 · 高分作品</h3>
+        <ul>
+          <li><span class="kdj-rank__no">01</span><span class="kdj-rank__name">空房间的第十二次尝试</span><span class="kdj-rank__val">9.6 分</span></li>
+          <li><span class="kdj-rank__no">02</span><span class="kdj-rank__name">清晨六点的环湖跑</span><span class="kdj-rank__val">9.4 分</span></li>
+          <li><span class="kdj-rank__no">03</span><span class="kdj-rank__name">雨天的厨房与热汤面</span><span class="kdj-rank__val">9.3 分</span></li>
+          <li><span class="kdj-rank__no">04</span><span class="kdj-rank__name">一分钟真实的陪伴</span><span class="kdj-rank__val">9.1 分</span></li>
+          <li><span class="kdj-rank__no">05</span><span class="kdj-rank__name">一年内容数据复盘</span><span class="kdj-rank__val">8.9 分</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="kdj-reviews">
+      <article class="kdj-card kdj-review">
+        <div class="kdj-review__stars">★★★★★</div>
+        <p class="kdj-review__txt">第一次在视频平台看到把失败素材当正片放的，反而看得最认真。看完去把自己的旧硬盘翻出来了。</p>
+        <div class="kdj-review__who"><span class="kdj-avatar" style="background:linear-gradient(135deg,#7a5cf0,#c3a7ff)">林</span><div><b>林间有风</b><span>关注 8 个月</span></div></div>
+      </article>
+
+      <article class="kdj-card kdj-review">
+        <div class="kdj-review__stars">★★★★★</div>
+        <p class="kdj-review__txt">布光课是真的能用。我用的就是台灯加一张白纸，拍出来的果冻终于不糊成一坨了，谢谢小满。</p>
+        <div class="kdj-review__who"><span class="kdj-avatar" style="background:linear-gradient(135deg,#e07aa8,#f7b7d2)">阿</span><div><b>阿柚的桌子</b><span>关注 3 个月</span></div></div>
+      </article>
+
+      <article class="kdj-card kdj-review">
+        <div class="kdj-review__stars">★★★★☆</div>
+        <p class="kdj-review__txt">城市夜行那条我看了三遍。声音处理很克制，没有强行煽情，很久没见到这么安静的片子了。</p>
+        <div class="kdj-review__who"><span class="kdj-avatar" style="background:linear-gradient(135deg,#1f8a72,#8fe3cf)">周</span><div><b>周末不加班</b><span>关注 1 年</span></div></div>
+      </article>
+
+      <article class="kdj-card kdj-review">
+        <div class="kdj-review__stars">★★★★★</div>
+        <p class="kdj-review__txt">作为新人，最感动的是投稿后 20 小时就收到修改建议，不是模板回复，是具体到第几秒的节奏问题。</p>
+        <div class="kdj-review__who"><span class="kdj-avatar" style="background:linear-gradient(135deg,#9a6a13,#ffcf7a)">小</span><div><b>小满的窗台</b><span>新人创作者</span></div></div>
+      </article>
+
+      <article class="kdj-card kdj-review">
+        <div class="kdj-review__stars">★★★★☆</div>
+        <p class="kdj-review__txt">高清播放和素材库是真的免费，这点在现在的环境里很少见。唯一希望专题更新再快一点。</p>
+        <div class="kdj-review__who"><span class="kdj-avatar" style="background:linear-gradient(135deg,#5b3fd6,#8fe3cf)">陈</span><div><b>陈半糖</b><span>关注 2 年</span></div></div>
+      </article>
+
+      <article class="kdj-card kdj-review">
+        <div class="kdj-review__stars">★★★★★</div>
+        <p class="kdj-review__txt">果冻系列让我重新开始记录生活。不是为了流量，就是想让一年后的自己能看到今天。</p>
+        <div class="kdj-review__who"><span class="kdj-avatar" style="background:linear-gradient(135deg,#4a2f7d,#e07aa8)">晚</span><div><b>晚风信箱</b><span>关注 5 个月</span></div></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 品牌深度解析（长文） -->
+<section class="kdj-sec kdj-sec--tint" id="kdj-essay">
+  <div class="kdj-wrap">
+    <div class="kdj-sec__head">
+      <div>
+        <span class="kdj-sec__kicker">Insight / 品牌解析</span>
+        <h2 class="kdj-sec__title">读懂 51空丶梦幻丶果冻：一个视频品牌的内容方法论</h2>
+        <p class="kdj-sec__desc">关于关键词、社区机制与内容生态的完整说明，约 1,000 字，建议收藏后阅读。</p>
+      </div>
+    </div>
+
+    <div class="kdj-essay">
+      <div class="kdj-essay__body">
+        <p><strong>51空丶梦幻丶果冻</strong>这个名字，第一次出现时并不被视为一个品牌，而更像一段个人签名。它由三个部分咬合而成：“51”是起点，也是更新节奏的隐喻；“空丶”指向一种留白的创作观，把不必要的元素拿掉，让画面和声音自己说话；“梦幻丶果冻”则是质感层面的自我要求，半透明、柔软、有光，却不失结构。作为一家持续运营的视频品牌官方网站，我们把这个名字拆开讲给每一位新来的创作者听，因为它决定了平台的内容取向。</p>
+
+        <h3>关键词解析之一：从名字到内容标准</h3>
+        <p>很多人以为“果冻”只是一个可爱的修饰词，实际上它在我们的内容标准里对应三项可被检验的指标：通透、层次与弹性。通透，指的是作品不堆砌信息，观众能一眼看懂想表达什么；层次，指的是即便只有七分钟，也有起承转合，有可回看第二次的细节；弹性，指的是内容能够被延伸，一条短片可以长成专题，一个专题可以长成持续更新的系列。我们把这三点写进了官方审核指南，也写进了创作者中心的投稿提示里，任何一个新账号在第一次上传时都会看到。这不是限制，而是让社区里的品质标准可被讨论、可被学习。品牌之所以能在这个垂直领域站住脚，靠的不是流量池，而是这套反复被验证的判断方式。</p>
+
+        <h3>关键词解析之二：空丶的社区机制</h3>
+        <p>“空丶”在社区里还有另一种用法：它代表一种允许空白存在的关系。我们的评论区不鼓励刷屏式的“好厉害”，而是鼓励具体到某一帧的讨论；我们的榜单不只看播放量，也看收藏率与完播率，因为一个愿意收藏的观众，往往比十个划过的观众更有价值。平台设置了三类入口：官方策展的专题、创作者自发的挑战赛、以及新人首作推荐位。三者互相供给——专题提供标准，挑战赛提供动力，新人位提供机会。过去一年，通过新人位进入社区的作品超过 900 条，其中 126 位创作者在三个月内完成了从首次上传到持续更新的过渡。这种结构让内容生态不是靠某个爆款撑起来，而是靠持续运营的日常积累。</p>
+
+        <h3>关键词解析之三：梦幻果冻的视觉语言</h3>
+        <p>在视觉层面，我们与社区共同沉淀出一套可复用的“果冻语言”：低饱和的紫粉底色、半透明的层叠、克制的光源、以及少量但精准的高光点缀。它不追求炫技，而是强调质感与情绪的一致性。这套语言已经出现在上千条作品里，也被整理成公开的调色参考与布光教程，任何人都可以下载使用，不需要署名。我们相信，真正的行业领先不是把方法藏起来，而是把它变成公共基础设施。也正因如此，平台上的作品风格在统一中又有明显的个人差异：有人偏爱长镜头的安静，有人喜欢快速剪辑的节奏，有人专门拍声音。这种多元与包容，是我们最看重的品牌资产。</p>
+
+        <h3>关键词解析之四：企业级运营与社区温度</h3>
+        <p>作为企业，我们清楚地知道“值得信赖”四个字的分量。平台的所有素材均为正版授权，所有上传内容经过人工与自动双重审核，所有对外发布的榜单都标注统计口径。我们把社会责任放在具体动作上：开放免费的创作者课程、为新人提供一次一对一的内容诊断、在每季度发布内容生态透明度报告。这些工作不会直接带来播放量，但它们决定了这个品牌能不能被长期信任。用户至上的意思，不是迎合每一次情绪，而是在关键时刻给出专业、清晰的回应。我们坚持匠心与创新并行：一方面守住内容品质的底线，另一方面不断尝试新的表达形式，比如今年上线的互动短片企划与声音优先单元。成长与陪伴不是口号，是每一条被认真回复的评论、每一次被及时处理的举报、每一个被看见的新人。</p>
+
+        <h3>我们如何看待未来的内容生态</h3>
+        <p>视频行业的节奏很快，但好内容的生产周期从来不会因为平台的催促而缩短。我们的选择是：把资源投向那些愿意慢下来的人，把曝光给到那些认真对待每一帧的人。未来一年，平台会继续扩充高清素材库，完善创作者的分层成长体系，并把专题策展开放给更多社区成员共同参与。我们希望 51空丶梦幻丶果冻不只是一个上传视频的地方，而是一个可以被反复回来看看的影像社区——这里有真实的记录、有温度的评论、有专业的方法，也有一点点梦幻的果冻色。</p>
+      </div>
+
+      <aside class="kdj-aside">
+        <div class="kdj-aside__box">
+          <h4>品牌速览</h4>
+          <p>官方网站 · 持续运营中<br>原创高清 · 正版素材 · 人工审核<br>专注梦幻影像与生活记录的垂直领域视频社区。</p>
+          <span class="kdj-tag">企业级内容标准</span>
+        </div>
+        <div class="kdj-aside__list">
+          <h4>内容生态数据</h4>
+          <ul>
+            <li><span>在册创作者</span><b>1,286</b></li>
+            <li><span>原创视频</span><b>4,200+</b></li>
+            <li><span>专题企划</span><b>36 个</b></li>
+            <li><span>月均投稿</span><b>1,040 条</b></li>
+            <li><span>审核平均时长</span><b>18 小时</b></li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- S7 辅助区：动态 / 合作 / FAQ / 投稿 -->
+<section class="kdj-sec" id="kdj-assist">
+  <div class="kdj-wrap">
+    <div class="kdj-sec__head">
+      <div>
+        <span class="kdj-sec__kicker">Support / 帮助与动态</span>
+        <h2 class="kdj-sec__title">企业动态、合作与常见问题</h2>
+        <p class="kdj-sec__desc">官方网站的公开信息区：品牌动态、合作伙伴、投稿方式与常见问题一站式查看。</p>
+      </div>
+    </div>
+
+    <div class="kdj-assist">
+      <div class="kdj-card kdj-news">
+        <h3>企业动态与更新日志</h3>
+        <p class="kdj-news__sub">官方发布，按时间倒序排列</p>
+        <ul>
+          <li><time>2026-11-20</time><span>《果冻色七分钟》第二季上线，首周播放 42.8 万，同步开放分镜手稿下载。</span></li>
+          <li><time>2026-11-15</time><span>创作者中心新增“空丶专题”投稿标签，稿件审核提速至 24 小时以内。</span></li>
+          <li><time>2026-11-08</time><span>第三届梦幻果冻影像挑战赛开放报名，主题「陪伴」，投稿截止 12 月 18 日。</span></li>
+          <li><time>2026-10-30</time><span>高清 4K 播放与正版素材库全站开放，所有注册创作者可免费下载使用。</span></li>
+          <li><time>2026-10-18</time><span>发布第三季度内容生态透明度报告，公开审核口径与榜单统计方法。</span></li>
+        </ul>
+
+        <h3 style="margin-top:26px">合作品牌与伙伴</h3>
+        <div class="kdj-partners">
+          <div class="kdj-partner"><i style="background:#7a5cf0">映</i><div><b>映巷影业</b><span>联合出品</span></div></div>
+          <div class="kdj-partner"><i style="background:#e07aa8">光</i><div><b>光年器材</b><span>设备支持</span></div></div>
+          <div class="kdj-partner"><i style="background:#1f8a72">声</i><div><b>声屿录音棚</b><span>声音合作</span></div></div>
+          <div class="kdj-partner"><i style="background:#9a6a13">甜</i><div><b>半糖烘焙</b><span>内容共创</span></div></div>
+        </div>
+      </div>
+
+      <div class="kdj-card kdj-faq">
+        <h3>常见问题</h3>
+        <details open>
+          <summary>投稿需要满足什么条件？</summary>
+          <p>完成实名注册即可投稿，无粉丝门槛。视频需为原创或已获得正版授权，时长建议 15 秒至 20 分钟，分辨率不低于 1080P。首次投稿会在 24 小时内收到人工反馈。</p>
+        </details>
+        <details>
+          <summary>平台素材库可以商用吗？</summary>
+          <p>素材库内标注“官方正版”的音频与画面可在本平台发布的作品中免费使用；如需用于外部商业项目，请在创作者中心提交授权申请，我们会在 3 个工作日内答复。</p>
+        </details>
+        <details>
+          <summary>审核要多久，没通过怎么办？</summary>
+          <p>常规审核平均 18 小时。未通过时会附具体原因与修改建议，可直接在稿件页修改后重新提交，不消耗投稿次数。</p>
+        </details>
+        <details>
+          <summary>榜单的数据是怎么统计的？</summary>
+          <p>热度榜按播放、收藏、完播、评论四项加权计算；口碑榜取近 30 天评分均值；新人榜仅统计注册 90 天内的创作者首作。所有口径在季度报告中公开。</p>
+        </details>
+        <details>
+          <summary>如何参加影像挑战赛？</summary>
+          <p>在投稿页选择对应赛事标签即可报名，同一账号最多提交 3 件作品。入选作品将进入官方专题展示，并获得高清素材库年度使用资格。</p>
+        </details>
+        <details>
+          <summary>发现侵权或不当内容怎么反馈？</summary>
+          <p>每条视频详情页均设有举报入口，也可通过页面底部联系我们。我们承诺 12 小时内响应，核实后立即下架并公示处理结果。</p>
+        </details>
+      </div>
+    </div>
+
+    <div class="kdj-cta">
+      <div>
+        <h3>把你的第一分钟交给果冻社区</h3>
+        <p>无论你拍的是清晨的街道、厨房的失败实验，还是一段没有对白的房间影像，只要真实，就值得被看见。官方通道全年开放，正版高清素材与专业反馈一并提供。</p>
+      </div>
+      <div class="kdj-cta__btns">
+        <button class="kdj-btn kdj-btn--primary" type="button" data-kdj-open="submit">立即投稿</button>
+        <button class="kdj-btn kdj-btn--line" type="button" data-kdj-open="feedback">意见反馈</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- S8 页脚 -->
+<footer class="kdj-footer">
+  <div class="kdj-wrap">
+    <div class="kdj-footer__grid">
+      <div>
+        <div class="kdj-footer__brand">
+          <svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true">
+            <rect width="64" height="64" rx="18" fill="#3a2d5e"/>
+            <path d="M32 11c9.5 0 17 7.5 17 17 0 13-10.5 21.5-17 25-6.5-3.5-17-12-17-25 0-9.5 7.5-17 17-17z" fill="#f7b7d2"/>
+            <circle cx="25.5" cy="28" r="3" fill="#2b2148"/>
+            <circle cx="38.5" cy="28" r="3" fill="#2b2148"/>
+          </svg>
+          <b>51空丶梦幻丶果冻</b>
+        </div>
+        <p>梦幻果冻品牌旗下原创高清视频社区官方网站。我们深耕梦幻影像与生活记录这一垂直领域，为创作者与企业搭建高品质、正版、可持续运营的内容生态。</p>
+        <p style="margin-top:10px">官方网站 · 版权所有 · 持续运营中</p>
+      </div>
+      <div>
+        <h4>内容</h4>
+        <ul>
+          <li><a href="#kdj-focus">焦点推荐</a></li>
+          <li><a href="#kdj-videos">视频社区</a></li>
+          <li><a href="#kdj-topics">专题企划</a></li>
+          <li><a href="#kdj-rank">数据榜单</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>社区</h4>
+        <ul>
+          <li><a href="#kdj-authors">创作者名录</a></li>
+          <li><a href="#kdj-essay">品牌解析</a></li>
+          <li><a href="#kdj-assist">企业动态</a></li>
+          <li><a href="#kdj-assist">常见问题</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>联系</h4>
+        <ul>
+          <li>合作邮箱：hello@jelly-studio.example</li>
+          <li>投稿咨询：工作日 10:00–18:00</li>
+          <li>内容举报：12 小时内响应</li>
+          <li><button class="kdj-btn kdj-btn--line" type="button" data-kdj-open="submit" style="margin-top:8px;padding:6px 14px;font-size:12px">投稿入口</button></li>
+        </ul>
+      </div>
+    </div>
+    <div class="kdj-footer__bar">
+      <span>© 2026 51空丶梦幻丶果冻 官方网站 版权所有</span>
+      <span>备案号：果冻备 2026-0042 号 · 持续运营中</span>
+    </div>
+  </div>
+</footer>
+
+<!-- 弹窗 -->
+<div class="kdj-modal" id="kdj-modal" role="dialog" aria-modal="true" aria-labelledby="kdj-modal-title">
+  <div class="kdj-modal__box">
+    <button class="kdj-modal__close" type="button" data-kdj-close aria-label="关闭弹窗">×</button>
+    <h3 id="kdj-modal-title">投稿入口</h3>
+    <div id="kdj-modal-body"></div>
+  </div>
+</div>
+
+<div class="kdj-toast" id="kdj-toast" role="status" aria-live="polite"></div>
+<button class="kdj-top-btn" id="kdj-top-btn" type="button" aria-label="回到顶部">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19V6M6 12l6-6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<script>
+(function(){
+  "use strict";
+  var d = document;
+  function $(s, r){ return (r || d).querySelector(s); }
+  function $$(s, r){ return Array.prototype.slice.call((r || d).querySelectorAll(s)); }
+
+  /* ---------- toast ---------- */
+  var toastEl = $("#kdj-toast"), toastTimer = null;
+  function toast(msg){
+    if(!toastEl) return;
+    toastEl.textContent = msg;
+    toastEl.classList.add("is-show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove("is-show"); }, 2200);
+  }
+
+  /* ---------- 移动端导航 ---------- */
+  var burger = $("#kdj-burger"), nav = $("#kdj-nav");
+  if(burger && nav){
+    burger.addEventListener("click", function(){
+      var open = nav.classList.toggle("is-open");
+      burger.classList.toggle("is-open", open);
+      burger.setAttribute("aria-expanded", open ? "true" : "false");
+      burger.setAttribute("aria-label", open ? "收起导航" : "展开导航");
+    });
+    $$("a", nav).forEach(function(a){
+      a.addEventListener("click", function(){
+        nav.classList.remove("is-open");
+        burger.classList.remove("is-open");
+        burger.setAttribute("aria-expanded", "false");
+      });
+    });
+  }
+
+  /* ---------- 搜索反馈 ---------- */
+  var searchWrap = $("#kdj-search"), input = $("#kdj-search-input"), hint = $("#kdj-search-hint");
+  var searchData = [
+    {t:"果冻色七分钟", k:"官方精品 · 实验短片"},
+    {t:"果冻质感布光课", k:"教程干货 · 灯光小满"},
+    {t:"城市夜行：等雨停", k:"城市探索 · 南巷胶片"},
+    {t:"透明果冻制作记录", k:"手作 DIY · 甜度实验室"},
+    {t:"空丶专题", k:"专题企划 · 空房间的十二种可能"},
+    {t:"果冻编辑部", k:"创作者 · 人物访谈"},
+    {t:"影像挑战赛", k:"报名中 · 主题「陪伴」"},
+    {t:"慢慢拍", k:"创作者 · 日常记录"}
+  ];
+  function renderHint(kw){
+    if(!hint) return;
+    var q = (kw || "").trim();
+    if(!q){
+      hint.innerHTML = '<p>热门：<strong>果冻色七分钟</strong> · 空丶专题 · 影像挑战赛</p>';
+      hint.classList.add("is-open");
+      return;
+    }
+    var hits = searchData.filter(function(x){ return x.t.indexOf(q) > -1 || x.k.indexOf(q) > -1; });
+    if(!hits.length){
+      hint.innerHTML = '<p class="kdj-search__empty">没有找到与“' + q.replace(/[<>&]/g, "") + '”直接相关的内容，试试“果冻”“布光”或“专题”。</p>';
+      hint.classList.add("is-open");
+      return;
+    }
+    hint.innerHTML = hits.map(function(x){
+      return '<p data-kdj-fill="' + x.t + '"><strong>' + x.t + '</strong> · ' + x.k + '</p>';
+    }).join("");
+    hint.classList.add("is-open");
+  }
+  if(input){
+    input.addEventListener("input", function(){ renderHint(input.value); });
+    input.addEventListener("focus", function(){ renderHint(input.value); });
+    input.addEventListener("keydown", function(e){
+      if(e.key === "Enter" && input.value.trim()){
+        toast("正在为你检索「" + input.value.trim() + "」相关内容");
+        hint.classList.remove("is-open");
+      }
+    });
+    if(hint){
+      hint.addEventListener("click", function(e){
+        var p = e.target.closest("[data-kdj-fill]");
+        if(!p) return;
+        input.value = p.getAttribute("data-kdj-fill");
+        renderHint(input.value);
+        toast("已为你定位到「" + input.value + "」");
+      });
+    }
+    d.addEventListener("click", function(e){
+      if(searchWrap && !searchWrap.contains(e.target) && hint) hint.classList.remove("is-open");
+    });
+  }
+
+  /* ---------- 点赞 / 收藏 ---------- */
+  function toNum(txt){
+    var n = parseFloat(String(txt).replace(/[^\d.]/g, ""));
+    return isNaN(n) ? 0 : n;
+  }
+  function fmt(n){
+    if(n >= 10000) return (n / 10000).toFixed(1).replace(/\.0$/, "") + " 万";
+    return String(Math.round(n));
+  }
+  function prefixOf(txt){
+    var m = String(txt).match(/^[^\d]+/);
+    return m ? m[0] : "";
+  }
+  $$(".kdj-vitem").forEach(function(item){
+    var likeBtn = $("[data-kdj-like]", item);
+    var favBtn = $("[data-kdj-fav]", item);
+    if(likeBtn){
+      likeBtn.addEventListener("click", function(){
+        var on = likeBtn.classList.toggle("is-liked");
+        likeBtn.setAttribute("aria-pressed", on ? "true" : "false");
+        var c = $("[data-kdj-like-count]", item);
+        if(c){
+          var base = toNum(c.getAttribute("data-kdj-base"));
+          if(!base){ base = toNum(c.textContent); c.setAttribute("data-kdj-base", base); }
+          var next = on ? base + 1 : base;
+          c.textContent = prefixOf(c.textContent) + fmt(next);
+        }
+        toast(on ? "已点赞，感谢你的支持" : "已取消点赞");
+      });
+    }
+    if(favBtn){
+      favBtn.addEventListener("click", function(){
+        var on = favBtn.classList.toggle("is-on");
+        favBtn.setAttribute("aria-pressed", on ? "true" : "false");
+        var c = $("[data-kdj-fav-count]", item);
+        if(c){
+          var base = toNum(c.getAttribute("data-kdj-base"));
+          if(!base){ base = toNum(c.textContent); c.setAttribute("data-kdj-base", base); }
+          var next = on ? base + 1 : base;
+          c.textContent = prefixOf(c.textContent) + fmt(next);
+        }
+        toast(on ? "已收藏，可在个人中心查看" : "已取消收藏");
+      });
+    }
+  });
+
+  /* ---------- 复制链接 ---------- */
+  $$("[data-kdj-copy]").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var item = btn.closest(".kdj-vitem");
+      var title = item ? item.querySelector(".kdj-vitem__title").textContent.replace(/\s+/g, " ").trim() : "果冻内容";
+      var text = "51空丶梦幻丶果冻 · " + title;
+      function done(){ toast("链接已复制，可以分享给同好了"); }
+      function fail(){
+        try{
+          var ta = d.createElement("textarea");
+          ta.value = text;
+          ta.style.position = "fixed";
+          ta.style.opacity = "0";
+          d.body.appendChild(ta);
+          ta.select();
+          d.execCommand("copy");
+          d.body.removeChild(ta);
+          done();
+        }catch(err){ toast("复制失败，请手动选择文本"); }
+      }
+      if(navigator.clipboard && navigator.clipboard.writeText){
+        navigator.clipboard.writeText(text).then(done).catch(fail);
+      } else { fail(); }
+    });
+  });
+
+  /* ---------- 弹窗（投稿 / 反馈 / 作者） ---------- */
+  var modal = $("#kdj-modal"), modalTitle = $("#kdj-modal-title"), modalBody = $("#kdj-modal-body");
+  var authorInfo = {
+    "果冻放映室": "官方影像团队，负责果冻季专题的策划与拍摄。擅长固定机位与自然光叙事，作品强调留白与呼吸感。主导《空丶》系列全部制作，并开放全部分镜手稿供社区下载学习。",
+    "慢慢拍": "独立创作者，习惯把失败素材留到第二年再剪。坚持每周更新一条一分钟内的生活片段，用极慢的节奏累积属于自己的影像年表。她说，记录本身就是一种陪伴。",
+    "灯光小满": "前商业摄影灯光师，现专职做视频教程。风格务实，喜欢用平价器材做对比实验，让新手也能在出租屋拍出通透质感。系列课程累计帮助超 2 万人完成第一条成片。",
+    "南巷胶片": "长期在南方城市老街游荡，带一台旧机器拍陌生人的背影。作品常被形容为“安静得有点吵”，因为环境音从不做降噪处理。他相信城市的声音就是最好的配乐。",
+    "甜度实验室": "把厨房当实验室的甜品爱好者，擅长把失败过程完整保留在片子里。视频结尾总有一张可保存的配比表，被社区称为“最不藏私的教程”。近期尝试把果冻质感延伸到非食物题材。",
+    "阿棠在路上": "跑步第八年，用镜头记录清晨的城市。坚持不加速、不配音、不加滤镜，把真实心率与脚步声交给观众。系列被很多新手当作跑步入门参考，也带动了社区晨跑打卡计划。"
+  };
+  var lastFocus = null;
+  function openModal(title, html, trigger){
+    if(!modal) return;
+    lastFocus = trigger || null;
+    modalTitle.textContent = title;
+    modalBody.innerHTML = html;
+    modal.classList.add("is-open");
+    var first = modal.querySelector("input,textarea,button");
+    if(first) setTimeout(function(){ first.focus(); }, 60);
+  }
+  function closeModal(){
+    if(!modal) return;
+    modal.classList.remove("is-open");
+    if(lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+  d.addEventListener("click", function(e){
+    var openBtn = e.target.closest("[data-kdj-open]");
+    if(openBtn){
+      var kind = openBtn.getAttribute("data-kdj-open");
+      if(kind === "submit"){
+        openModal("投稿入口",
+          '<p>填写作品标题与简介，我们会以品牌官方通道在 24 小时内回复。</p>' +
+          '<label class="kdj-sr" for="kdj-sub-title">作品标题</label><input id="kdj-sub-title" type="text" placeholder="作品标题，例如：果冻色的第一分钟">' +
+          '<label class="kdj-sr" for="kdj-sub-desc">作品简介</label><textarea id="kdj-sub-desc" rows="3" placeholder="简单说说你的创作想法与使用的设备"></textarea>' +
+          '<div class="kdj-modal__actions"><button class="kdj-btn kdj-btn--ghost" type="button" data-kdj-close>取消</button><button class="kdj-btn kdj-btn--primary" type="button" data-kdj-send="submit">提交稿件</button></div>',
+          openBtn);
+      } else if(kind === "feedback"){
+        openModal("意见反馈",
+          '<p>发现内容问题或对官方网站有建议？请描述具体情况，我们 12 小时内响应。</p>' +
+          '<label class="kdj-sr" for="kdj-fb-text">反馈内容</label><textarea id="kdj-fb-text" rows="4" placeholder="请描述你遇到的问题或建议"></textarea>' +
+          '<div class="kdj-modal__actions"><button class="kdj-btn kdj-btn--ghost" type="button" data-kdj-close>取消</button><button class="kdj-btn kdj-btn--primary" type="button" data-kdj-send="feedback">发送反馈</button></div>',
+          openBtn);
+      } else if(kind === "author"){
+        var name = openBtn.getAttribute("data-kdj-author") || "创作者";
+        openModal(name, '<p>' + (authorInfo[name] || "这位创作者暂时没有更多公开信息。") + '</p><div class="kdj-modal__actions"><button class="kdj-btn kdj-btn--primary" type="button" data-kdj-close>知道了</button></div>', openBtn);
+      }
+      return;
+    }
+    if(e.target.closest("[data-kdj-close]")){ closeModal(); return; }
+    if(modal && e.target === modal){ closeModal(); return; }
+    var send = e.target.closest("[data-kdj-send]");
+    if(send){
+      var t = send.getAttribute("data-kdj-send");
+      if(t === "submit"){
+        var ti = $("#kdj-sub-title"), de = $("#kdj-sub-desc");
+        if(!ti || !ti.value.trim()){ toast("请先填写作品标题"); if(ti) ti.focus(); return; }
+        if(!de || !de.value.trim()){ toast("请简单描述作品简介"); if(de) de.focus(); return; }
+        closeModal();
+        toast("稿件已提交，官方将在 24 小时内反馈");
+      } else {
+        var fb = $("#kdj-fb-text");
+        if(!fb || !fb.value.trim()){ toast("请填写反馈内容"); if(fb) fb.focus(); return; }
+        closeModal();
+        toast("反馈已收到，感谢你对社区的维护");
+      }
+    }
+  });
+  d.addEventListener("keydown", function(e){
+    if(e.key === "Escape" && modal && modal.classList.contains("is-open")) closeModal();
+  });
+
+  /* ---------- 回到顶部 ---------- */
+  var topBtn = $("#kdj-top-btn");
+  function onScroll(){
+    if(!topBtn) return;
+    topBtn.classList.toggle("is-show", window.scrollY > 560);
+  }
+  window.addEventListener("scroll", onScroll, {passive:true});
+  onScroll();
+  if(topBtn){
+    topBtn.addEventListener("click", function(){
+      window.scrollTo({top:0, behavior:"smooth"});
+    });
+  }
+
+  /* ---------- 数字滚动 ---------- */
+  var counters = $$("[data-kdj-count]");
+  if("IntersectionObserver" in window && counters.length){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(!en.isIntersecting) return;
+        var el = en.target;
+        io.unobserve(el);
+        var target = parseFloat(el.getAttribute("data-kdj-count"));
+        var suffix = el.textContent.indexOf("%") > -1 ? "%" : "+";
+        var start = performance.now(), dur = 900;
+        function tick(now){
+          var p = Math.min(1, (now - start) / dur);
+          var v = Math.round(target * (1 - Math.pow(1 - p, 3)));
+          el.textContent = v.toLocaleString("en-US") + suffix;
+          if(p < 1) requestAnimationFrame(tick);
+        }
+        requestAnimationFrame(tick);
+      });
+    }, {threshold:0.4});
+    counters.forEach(function(c){ io.observe(c); });
+  }
+})();
+</script>
+</body>
+          </html>
